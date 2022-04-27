@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+  --darkblue: #1A132F;
+  --middleblue: #5B7DB1;
+  --lightblue: #61A4BC;
+  --pink: #F7E2E2;
+  background-color: var(--darkblue);
+  color: var(--pink);
+}
 .App {
   text-align: center;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 .App-logo {

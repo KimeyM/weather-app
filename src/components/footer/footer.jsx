@@ -3,11 +3,8 @@ import './footer.css'
 
 export default function Footer() {
   return (
-    <footer style={{backgroundColor:'var(--lightblue)'}}>
-    <h4>Este es el footer</h4>
-    <figure>
-      <img src="" alt="" />
-    </figure>
-  </footer>
+    <footer>
+      <h3>Hecho por <a href="https://kimey-mastrangelo.vercel.app/" target="_blank" style={{color:'var(--darkblue)', fontWeight:'900', marginLeft:'5px'}}>Kimey Mastrángelo</a></h3>
+    </footer>
   )
 }

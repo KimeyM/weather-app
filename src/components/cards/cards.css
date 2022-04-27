@@ -1,0 +1,11 @@
+section{
+    /* margin-top: 100px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    place-content: center;
+}

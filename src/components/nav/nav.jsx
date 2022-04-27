@@ -1,24 +1,26 @@
-import React, {useState} from 'react'
-import './nav.css'
+import React from 'react';
+import Logo from '../../img/logo.png';
+import SearchBar from '../searchBar/searchBar.jsx';
+import './nav.css';
+import { Link } from "react-router-dom";
 
-export default function Nav({onSearch}) {
 
-  const [city, setCity] = useState("");
-
+function Nav({onSearch}) {
   return (
-    <nav style={{backgroundColor:'var(--middleblue)'}}>
-      <form onSubmit={(e) => {
-        e.preventDefault();
-        onSearch(city);
-      }}>
-        <input
-          type="text"
-          placeholder="Ciudad..."
-          value={city}
-          onChange={e => setCity(e.target.value)}
+    <div className='containerNav'>
+      <nav>
+        <div className='containerNavLink'>
+          <img src={Logo} width="30" height="30" alt="" />
+          <Link to="/" style={{textDecoration:'none', color:'var(--pink)', fontWeight:'600', fontSize:'28px', letterSpacing:'1px'}}>
+          Weather App
+          </Link>
+        </div>   
+        <SearchBar
+          onSearch={onSearch}
         />
-        <input type="submit" value="Agregar" />
-      </form>
-    </nav>
-  )
-}
+      </nav>
+    </div>
+  );
+};
+
+export default Nav;

@@ -1,9 +1,0 @@
-.containerHeader{
-    background-color: var(--lightblue);
-    display: flex;
-    justify-content: space-around;
-    height: 70px;
-}
-.containerHeader img{
-    height: 100%;
-}

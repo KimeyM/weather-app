@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+  --darkblue: #1A132F;
+  --middleblue: #5B7DB1;
+  --lightblue: #61A4BC;
+  --pink: #F7E2E2;
+  background-color: var(--darkblue);
+  color: var(--pink);
+}
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+}
+.swal-modal {
+  background-color: var(--middleblue);
+  /* border: 3px solid white; */
+}
+.swal-title, .swal-text, .swal-button {
+  font-family: 'Poppins', sans-serif;
+  color: var(--pink);
+}
+.swal-button{
+  background-color: var(--darkblue);
+  border: none;
+}
+
+:root{
+	background: linear-gradient(-45deg, #1A132F, #5B7DB1, #61A4BC);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+.h1home{
+	-webkit-animation: pulse 3s ease-in-out infinite both;
+	        animation: pulse 3s ease-in-out infinite both;
+}
+@-webkit-keyframes pulse {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  }
+  @keyframes pulse {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  } 
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

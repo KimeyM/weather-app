@@ -11,10 +11,10 @@
 * Consultas del clima en todas las ciudades del mundo
 
 ### Mirá mi proyecto [aquí].
-[aquí]: https://appdelclima.vercel.app/
+[aquí]: https://youtu.be/Qb-6uQmYrV0
 
 ## WEB
-<img src = "./home.png" >
+<img src = "./web.png" >
 
 ## MOBILE
-<img src = "./responsive.png" >
+<img src = "./mobile.png" >

@@ -10,7 +10,7 @@ function Nav({onSearch}) {
       <nav>
         <div className='containerNavLink'>
           <Link to="/" style={{textDecoration:'none', color:'var(--pink)', fontWeight:'600', fontSize:'28px', letterSpacing:'1px'}}>
-          Weather App
+          App del Clima
           </Link>
         </div>   
         <SearchBar

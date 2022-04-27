@@ -9,3 +9,10 @@ section{
     margin-right: 5%;
     place-content: center;
 }
+@media only screen and (max-width: 900px) {
+    section{
+        margin-bottom: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

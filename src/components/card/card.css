@@ -85,3 +85,13 @@ article{
 p span{
     font-weight: 600;
 }
+
+@media only screen and (max-width: 900px) {
+    .containerCard .card .face{
+        width: 270px;
+    }
+    .containerCard .card:hover .face.face1{
+        background-color: var(--darkblue);
+    }
+
+}

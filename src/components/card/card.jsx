@@ -23,7 +23,6 @@ export default function Card ({min, max, name, img, onClose, country, wind, weat
                     <p><span>Viento:</span> {wind} km/h</p>
                     <p><span>Humedad:</span> {humidity}%</p>
                     <p><span>Visibilidad:</span> {visibility} km</p>
-                    <p><span>País:</span> {country}</p>
                     </div>
                 </div>
             </div>

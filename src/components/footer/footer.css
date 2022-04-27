@@ -8,6 +8,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 3;
 }
 footer img{
     margin-left: 10px;
